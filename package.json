@@ -1,0 +1,23 @@
+{
+  "name": "optimized-images",
+  "version": "0.1.0",
+  "description": "Scripts for optimize images",
+  "scripts": {
+    "imagemin": "npx gulp imagemin",
+    "webp": "npx gulp webp",
+    "favicon": "npx gulp favicon"
+  },
+  "author": "Joan Serna",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "gulp-ext-replace": "^0.3.0",
+    "gulp-imagemin": "^6.1.0",
+    "gulp-to-ico": "^1.0.0",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "imagemin-webp": "^5.1.0"
+  }
+}
